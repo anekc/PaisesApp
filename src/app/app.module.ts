@@ -7,6 +7,7 @@ import { PaisModule } from './pais/pais.module';
 
 
 import { AppRoutingModule } from './app-routing.module';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
