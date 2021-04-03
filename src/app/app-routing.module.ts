@@ -16,7 +16,7 @@ const routes: Routes = [
         path: 'capital', component: CapitalComponent
     },
     {
-        path: 'pais/id', component: VerPaisComponent
+        path: 'pais/:id', component: VerPaisComponent
     },
     {
         path: '**', redirectTo: ''
